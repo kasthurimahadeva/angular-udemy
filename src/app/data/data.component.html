@@ -1,0 +1,7 @@
+<button class="btn btn-primary" (click)="display()">Display Details</button>
+<p *ngIf="displayData">Secret Password = 'panda'</p>
+<div *ngFor="let log of logs"
+   [ngStyle]="{backgroundColor: log >= 5 ? 'blue': 'transparent'}"
+   [ngClass]="{logColor: log >= 5}">
+  {{ log }}
+</div>

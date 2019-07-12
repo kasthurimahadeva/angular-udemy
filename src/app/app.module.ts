@@ -6,13 +6,15 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { UserComponent } from './user/user.component';
 import {FormsModule} from '@angular/forms';
+import { DataComponent } from './data/data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    UserComponent
+    UserComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule,
