@@ -12,6 +12,9 @@ import { RecipesComponent } from './recipes.component';
     RecipeDetailComponent,
     RecipesComponent
   ],
+  exports: [
+    RecipesComponent
+  ],
   imports: [
     CommonModule
   ]
